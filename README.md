@@ -20,3 +20,7 @@ The goal of this project is to characterize sex-specific alterations in brain mo
 - **Connectivity Estimation**: The Morphometric INverse Divergence (MIND) framework was used to estimate inter-regional similarity. Connectivity matrices (68×68 for cortex, 82×82 for whole brain) were computed using symmetrized multivariate KL divergence.
 
 - **Statistical Analysis**: Network-Based Statistics (NBS) was applied separately for males and females to detect clusters of altered connectivity between ASD and typically developing control (TDC) groups. Analyses controlled for age, intracranial volume, and site. A leave-one-feature-out approach assessed the importance of each morphometric feature via changes in AUC in ROC classification. Partial correlations were performed between subnetwork strength and behavioral scores (ADI-R, ADOS-2, CBCL) in the ASD group.
+
+Here a methodological sketch of the project:
+
+![methodology](https://github.com/RaseroLab/Autism-sex-stratified-morphology-connectivity/blob/main/figures/Sup-figures/method-fig.png)
