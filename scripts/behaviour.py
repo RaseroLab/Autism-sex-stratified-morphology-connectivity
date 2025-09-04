@@ -9,11 +9,9 @@ import pingouin as pg
 
 
 # File paths
-BASE_PATH = "/home/javi/Documentos/ace-autism/nooshin_July22/For-Javi"
-OUTPUT_DIR = os.path.join(BASE_PATH, "results_pca")
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+BASE_PATH = "/path/to/project"
 
-MODEL_PATH = os.path.join(BASE_PATH, "demo_nbs_July22.csv")
+MODEL_PATH = os.path.join(BASE_PATH, "demo.csv")
 CBCL_EXCEL_PATH = os.path.join(BASE_PATH, "Master_Spreadsheet_5-29-2018.xlsx")
 RES_MALE_PATH = os.path.join(BASE_PATH, "res_cohort_male_thrP005.csv")
 RES_FEMALE_PATH = os.path.join(BASE_PATH, "res_cohort_female_thrP005.csv")
